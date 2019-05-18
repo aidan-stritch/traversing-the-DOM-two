@@ -13,7 +13,6 @@
   font-family: dosis;
   font-size: 30px;
   padding-top: 30px;
-   /* display: none;*/
    border: solid 2px #fff;   /* border used to stop jump when border is applied*/
 }
 .superButton {
@@ -43,19 +42,19 @@ p{
 .makeBorder{
 	border: solid 2px #000;
 }
-.makeTextBlack{
-   color: #000;
-}
 .green{
-  background-color: green;
+  background-color: #008000;
 }
 .red{
-  background-color: red;
+  background-color:   #FF0000;
 }
 .blue{
-  background-color: blue;
+  background-color:   #0000FF;
 }
 .selected{
     background-color: #F07D00;
 }
- 
+/*make sure to add after all other color classes to advoid cascade issues*/
+.makeBlack{
+   background-color:  #000000;
+} 
